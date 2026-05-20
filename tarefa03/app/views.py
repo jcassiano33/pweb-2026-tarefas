@@ -1,7 +1,7 @@
 from django.shortcuts import render
 
 def index(request):
-    return render(request, "index.html")
+    return render(request, "app/index.html")
 
 def usuarios(request):
     lista_users = [
@@ -16,4 +16,4 @@ def usuarios(request):
         "usuarios": lista_users,
     }
     
-    return render(request, "usuarios.html", context)
+    return render(request, "app/usuarios.html", context)
