@@ -3,7 +3,7 @@
 {% block "content" %}
 <h2>{{ post.titulo }}</h2>
 {% if post.imagem %}
-<img src="{{ post.imagem.url }}" alt="" width="500">
+<img src="{{ post.imagem.url }}" alt="" width="250">
 {% endif %}
 <p>{{ post.texto }} | safe</p>
 {% endblock %}

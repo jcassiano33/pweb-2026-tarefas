@@ -9,14 +9,15 @@
 
 <body>
     <header>
-        <h1>THE BESTS 🐐:</h1>
+        <h1><a href="{% url 'index' %}">THE BESTS 🐐</a></h1>
     </header>
     <main>
         {% block "content" %}
         {% endblock %}
     </main>
     <footer>
-        <p>Um não é GOAT... 🐪</p>
+        <p><i>Desenvolvedor: José Cassiano - 17 anos, bodybuilder e gosta de pizza :D</i></p>
+        <!-- O blog deve ter um header com o título e link para o index, e um "footer com informações do desenvolvedor" -->
     </footer>
 </body>
 
